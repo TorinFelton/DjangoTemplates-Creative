@@ -1,0 +1,86 @@
+{
+  "features":[
+    {
+      "fa": "fa-gem",
+      "title": "Sturdy Themes",
+      "description": "Our themes are updated regularly to keep them bug free!"
+    },
+    {
+      "fa":  "fa-laptop-code",
+      "title": "Up to Date",
+      "description": "All dependencies are kept current to keep things fresh."
+    },
+    {
+      "fa":  "fa-globe",
+      "title": "Ready to Publish",
+      "description": "You can use this design as is, or you can make changes!"
+    },
+    {
+      "fa":  "fa-heart",
+      "title": "Made with Love",
+      "description": "Is it really open source if it's not made with love?"
+    }
+  ],
+
+  "portfolio":[
+    {
+        "portfolio-img": "img/portfolio/fullsize/1.jpg",
+        "img-fluid": "img/portfolio/thumbnails/1.jpg",
+        "category": "Category",
+        "project-name": "Project Name"
+    },
+    {
+        "portfolio-img": "img/portfolio/fullsize/2.jpg",
+        "img-fluid": "img/portfolio/thumbnails/2.jpg",
+        "category": "Category",
+        "project-name": "Project Name"
+    },
+    {
+        "portfolio-img": "img/portfolio/fullsize/3.jpg",
+        "img-fluid": "img/portfolio/thumbnails/3.jpg",
+        "category": "Category",
+        "project-name": "Project Name"
+    },
+    {
+        "portfolio-img": "img/portfolio/fullsize/4.jpg",
+        "img-fluid": "img/portfolio/thumbnails/4.jpg",
+        "category": "Category",
+        "project-name": "Project Name"
+    },
+    {
+        "portfolio-img": "img/portfolio/fullsize/5.jpg",
+        "img-fluid": "img/portfolio/thumbnails/5.jpg",
+        "category": "Category",
+        "project-name": "Project Name"
+    },
+    {
+        "portfolio-img": "img/portfolio/fullsize/6.jpg",
+        "img-fluid": "img/portfolio/thumbnails/6.jpg",
+        "category": "Category",
+        "project-name": "Project Name"
+    },
+  ],
+
+  "get-in-touch": 
+  {
+    "title": "Let's Get In Touch!",
+    "description": "Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!",
+  },
+
+  "contacts": [
+    {
+      "class": "col-lg-4 ml-auto text-center mb-5 mb-lg-0",
+      "fa": "fa-phone",
+      "description": "+1 (202) 555-0149"
+    },
+
+    {
+      "class": "col-lg-4 mr-auto text-center",
+      "fa": "fa-envelope",
+      "description": "<a class=\"d-block\" href=\"mailto:contact@yourwebsite.com\">contact@yourwebsite.com</a>"
+    }
+  
+  ],
+
+  "copyright": "Copyright &copy; 2019 - Start Bootstrap"
+}
