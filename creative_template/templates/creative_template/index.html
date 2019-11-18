@@ -112,8 +112,8 @@
         {% for box in portfolio %}
 
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="{{ box.portfolio_img }}">
-            <img class="img-fluid" src="{{ box.img_fluid }}" alt="">
+          <a class="portfolio-box" href="{% static box.portfolio_img %}">
+            <img class="img-fluid" src="{% static box.img_fluid %}" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 {{ box.category }}
