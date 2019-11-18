@@ -34,22 +34,22 @@
 
     "features":[
         {
-            "fa": "fa-gem",
+            "fa": "fa_gem",
             "title": "Sturdy Themes",
             "description": "Our themes are updated regularly to keep them bug free!"
         },
         {
-            "fa":  "fa-laptop-code",
+            "fa":  "fa_laptop_code",
             "title": "Up to Date",
             "description": "All dependencies are kept current to keep things fresh."
         },
         {
-            "fa":  "fa-globe",
+            "fa":  "fa_globe",
             "title": "Ready to Publish",
             "description": "You can use this design as is, or you can make changes!"
         },
         {
-            "fa":  "fa-heart",
+            "fa":  "fa_heart",
             "title": "Made with Love",
             "description": "Is it really open source if it's not made with love?"
         }
@@ -57,40 +57,40 @@
 
     "portfolio":[
         {
-            "portfolio-img": "img/portfolio/fullsize/1.jpg",
-            "img-fluid": "img/portfolio/thumbnails/1.jpg",
+            "portfolio_img": "img/portfolio/fullsize/1.jpg",
+            "img_fluid": "img/portfolio/thumbnails/1.jpg",
             "category": "Category",
-            "project-name": "Project Name"
+            "project_name": "Project Name"
         },
         {
-            "portfolio-img": "img/portfolio/fullsize/2.jpg",
-            "img-fluid": "img/portfolio/thumbnails/2.jpg",
+            "portfolio_img": "img/portfolio/fullsize/2.jpg",
+            "img_fluid": "img/portfolio/thumbnails/2.jpg",
             "category": "Category",
-            "project-name": "Project Name"
+            "project_name": "Project Name"
         },
         {
-            "portfolio-img": "img/portfolio/fullsize/3.jpg",
-            "img-fluid": "img/portfolio/thumbnails/3.jpg",
+            "portfolio_img": "img/portfolio/fullsize/3.jpg",
+            "img_fluid": "img/portfolio/thumbnails/3.jpg",
             "category": "Category",
-            "project-name": "Project Name"
+            "project_name": "Project Name"
         },
         {
-            "portfolio-img": "img/portfolio/fullsize/4.jpg",
-            "img-fluid": "img/portfolio/thumbnails/4.jpg",
+            "portfolio_img": "img/portfolio/fullsize/4.jpg",
+            "img_fluid": "img/portfolio/thumbnails/4.jpg",
             "category": "Category",
-            "project-name": "Project Name"
+            "project_name": "Project Name"
         },
         {
-            "portfolio-img": "img/portfolio/fullsize/5.jpg",
-            "img-fluid": "img/portfolio/thumbnails/5.jpg",
+            "portfolio_img": "img/portfolio/fullsize/5.jpg",
+            "img_fluid": "img/portfolio/thumbnails/5.jpg",
             "category": "Category",
-            "project-name": "Project Name"
+            "project_name": "Project Name"
         },
         {
-            "portfolio-img": "img/portfolio/fullsize/6.jpg",
-            "img-fluid": "img/portfolio/thumbnails/6.jpg",
+            "portfolio_img": "img/portfolio/fullsize/6.jpg",
+            "img_fluid": "img/portfolio/thumbnails/6.jpg",
             "category": "Category",
-            "project-name": "Project Name"
+            "project_name": "Project Name"
         }
     ],
 
