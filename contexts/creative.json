@@ -7,9 +7,9 @@
         "description": ""
     },
 
-    "nav-bar":
+    "nav_bar":
     {
-        "nav-title": "Start Bootstrap",
+        "nav_title": "Start Bootstrap",
         "nav1": "About",
         "nav2": "Services",
         "nav3": "Portfolio",
@@ -20,17 +20,17 @@
     {
         "header": "Your Favorite Source of Free Bootstrap Themes",
         "description": "Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!",
-        "find-more-btn": "Find Out More"
+        "find_more_btn": "Find Out More"
     },
 
     "about":
     {
         "title": "We've got what you need!",
         "description": "Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!",
-        "button-text": "Get Started!"
+        "button_text": "Get Started!"
     },
 
-    "services-title": "At Your Service",
+    "services_title": "At Your Service",
 
     "features":[
         {
@@ -95,13 +95,13 @@
     ],
 
 
-    "call-to-action": 
+    "call_to_action": 
     {
         "title": "Free Download at Start Bootstrap!",
-        "btn-text": "Download Now!"
+        "btn_text": "Download Now!"
     },
 
-    "get-in-touch": 
+    "get_in_touch": 
     {
         "title": "Let's Get In Touch!",
         "description": "Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!"
