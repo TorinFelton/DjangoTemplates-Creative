@@ -117,7 +117,7 @@
         {
             "class": "col-lg-4 mr-auto text-center",
             "fa": "fa-envelope",
-            "description": "<a class=\"d-block\" href=\"mailto:contact@yourwebsite.com\">contact@yourwebsite.com</a>"
+            "description": "contact@yourwebsite.com"
         }
 
     ],
