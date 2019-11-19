@@ -1,0 +1,126 @@
+{
+
+    "page":
+    {
+        "title": "Creative - Start Bootstrap Theme",
+        "author": "",
+        "description": ""
+    },
+
+    "nav_bar":
+    {
+        "nav_title": "Start Bootstrap",
+        "nav1": "About",
+        "nav2": "Services",
+        "nav3": "Portfolio",
+        "nav4": "Contact"
+    },
+
+    "main":
+    {
+        "header": "Your Favorite Source of Free Bootstrap Themes",
+        "description": "Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!",
+        "find_more_btn": "Find Out More"
+    },
+
+    "about":
+    {
+        "title": "We've got what you need!",
+        "description": "Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!",
+        "button_text": "Get Started!"
+    },
+
+    "services_title": "At Your Service",
+
+    "features":[
+        {
+            "fa": "fa_gem",
+            "title": "Sturdy Themes",
+            "description": "Our themes are updated regularly to keep them bug free!"
+        },
+        {
+            "fa":  "fa_laptop_code",
+            "title": "Up to Date",
+            "description": "All dependencies are kept current to keep things fresh."
+        },
+        {
+            "fa":  "fa_globe",
+            "title": "Ready to Publish",
+            "description": "You can use this design as is, or you can make changes!"
+        },
+        {
+            "fa":  "fa_heart",
+            "title": "Made with Love",
+            "description": "Is it really open source if it's not made with love?"
+        }
+    ],
+
+    "portfolio":[
+        {
+            "portfolio_img": "creative_template/img/portfolio/fullsize/1.jpg",
+            "img_fluid": "creative_template/img/portfolio/thumbnails/1.jpg",
+            "category": "Category",
+            "project_name": "Project Name"
+        },
+        {
+            "portfolio_img": "creative_template/img/portfolio/fullsize/2.jpg",
+            "img_fluid": "creative_template/img/portfolio/thumbnails/2.jpg",
+            "category": "Category",
+            "project_name": "Project Name"
+        },
+        {
+            "portfolio_img": "creative_template/img/portfolio/fullsize/3.jpg",
+            "img_fluid": "creative_template/img/portfolio/thumbnails/3.jpg",
+            "category": "Category",
+            "project_name": "Project Name"
+        },
+        {
+            "portfolio_img": "creative_template/img/portfolio/fullsize/4.jpg",
+            "img_fluid": "creative_template/img/portfolio/thumbnails/4.jpg",
+            "category": "Category",
+            "project_name": "Project Name"
+        },
+        {
+            "portfolio_img": "creative_template/img/portfolio/fullsize/5.jpg",
+            "img_fluid": "creative_template/img/portfolio/thumbnails/5.jpg",
+            "category": "Category",
+            "project_name": "Project Name"
+        },
+        {
+            "portfolio_img": "creative_template/img/portfolio/fullsize/6.jpg",
+            "img_fluid": "creative_template/img/portfolio/thumbnails/6.jpg",
+            "category": "Category",
+            "project_name": "Project Name"
+        }
+    ],
+
+
+    "call_to_action": 
+    {
+        "title": "Free Download at Start Bootstrap!",
+        "btn_text": "Download Now!"
+    },
+
+    "get_in_touch": 
+    {
+        "title": "Let's Get In Touch!",
+        "description": "Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!"
+    },
+
+    "contacts": [
+        {
+            "class": "col-lg-4 ml-auto text-center mb-5 mb-lg-0",
+            "fa": "fa-phone",
+            "description": "+1 (202) 555-0149"
+        },
+
+        {
+            "class": "col-lg-4 mr-auto text-center",
+            "fa": "fa-envelope",
+            "description": "contact@yourwebsite.com"
+        }
+
+    ],
+
+    "copyright": "Copyright &copy; 2019 - Start Bootstrap"
+}
