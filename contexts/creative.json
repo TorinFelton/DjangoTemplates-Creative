@@ -98,7 +98,8 @@
     "call_to_action": 
     {
         "title": "Free Download at Start Bootstrap!",
-        "btn_text": "Download Now!"
+        "btn_text": "Download Now!",
+        "btn_href": "https://startbootstrap.com/themes/creative/"
     },
 
     "get_in_touch": 
@@ -122,5 +123,5 @@
 
     ],
 
-    "copyright": "Copyright &copy; 2019 - Start Bootstrap"
+    "copyright": "Copyright © 2019 - Start Bootstrap"
 }
