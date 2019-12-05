@@ -31,7 +31,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">{{ nav_bar.nav_title }}</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">{{ nav_brand }}</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -39,7 +39,7 @@
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           {% for nav in nav_links %}
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="{{ nav.href }}">{{ nav.text }}</a>
+            <a class="nav-link js-scroll-trigger" href="{{ nav.href }}">{{ nav.name }}</a>
           </li>
           {% endfor%}
         </ul>
