@@ -8,7 +8,7 @@
     },     
     "nav_brand": "Start Bootstrap",
     "nav_links": [
-        {"name": "About", "href": "#about"},
+        {"name": "About Us", "href": "#about"},
         {"name": "Services", "href": "#services"},
         {"name": "Portfolio", "href": "#portfolio"},
         {"name": "Contact", "href": "#contact"}
