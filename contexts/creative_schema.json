@@ -1,0 +1,455 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "Creative Page",
+  "required": [
+    "page",
+    "nav_bar",
+    "main",
+    "about",
+    "services_title",
+    "features",
+    "portfolio",
+    "call_to_action",
+    "get_in_touch",
+    "contacts",
+    "copyright"
+  ],
+  "properties": {
+    "page": {
+      "$id": "#/properties/page",
+      "type": "object",
+      "title": "Page Details",
+      "required": [
+        "title",
+        "author",
+        "description"
+      ],
+      "properties": {
+        "title": {
+          "$id": "#/properties/page/properties/title",
+          "type": "string",
+          "title": "Page Title",
+          "default": "",
+          "examples": [
+            "Creative - Start Bootstrap Theme"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "author": {
+          "$id": "#/properties/page/properties/author",
+          "type": "string",
+          "title": "Page Author",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "pattern": "^(.*)$"
+        },
+        "description": {
+          "$id": "#/properties/page/properties/description",
+          "type": "string",
+          "title": "Page Description",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "nav_bar": {
+      "$id": "#/properties/nav_bar",
+      "type": "object",
+      "title": "Navigation Bar",
+      "required": [
+        "nav_title",
+        "nav1",
+        "nav2",
+        "nav3",
+        "nav4"
+      ],
+      "properties": {
+        "nav_title": {
+          "$id": "#/properties/nav_bar/properties/nav_title",
+          "type": "string",
+          "title": "Navbar Title",
+          "default": "",
+          "examples": [
+            "Start Bootstrap"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "nav1": {
+          "$id": "#/properties/nav_bar/properties/nav1",
+          "type": "string",
+          "title": "Nav Item 1",
+          "default": "",
+          "examples": [
+            "About"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "nav2": {
+          "$id": "#/properties/nav_bar/properties/nav2",
+          "type": "string",
+          "title": "Nav Item 2",
+          "default": "",
+          "examples": [
+            "Services"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "nav3": {
+          "$id": "#/properties/nav_bar/properties/nav3",
+          "type": "string",
+          "title": "Nav Item 3",
+          "default": "",
+          "examples": [
+            "Portfolio"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "nav4": {
+          "$id": "#/properties/nav_bar/properties/nav4",
+          "type": "string",
+          "title": "Nav Item 4",
+          "default": "",
+          "examples": [
+            "Contact"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "main": {
+      "$id": "#/properties/main",
+      "type": "object",
+      "title": "Landing Section",
+      "required": [
+        "header",
+        "description",
+        "find_more_btn"
+      ],
+      "properties": {
+        "header": {
+          "$id": "#/properties/main/properties/header",
+          "type": "string",
+          "title": "Landing Header",
+          "default": "",
+          "examples": [
+            "Your Favorite Source of Free Bootstrap Themes"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "description": {
+          "$id": "#/properties/main/properties/description",
+          "type": "string",
+          "title": "Landing Description",
+          "default": "",
+          "examples": [
+            "Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "find_more_btn": {
+          "$id": "#/properties/main/properties/find_more_btn",
+          "type": "string",
+          "title": "Button Text",
+          "default": "",
+          "examples": [
+            "Find Out More"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "about": {
+      "$id": "#/properties/about",
+      "type": "object",
+      "title": "About Section",
+      "required": [
+        "title",
+        "description",
+        "button_text"
+      ],
+      "properties": {
+        "title": {
+          "$id": "#/properties/about/properties/title",
+          "type": "string",
+          "title": "About Title",
+          "default": "",
+          "examples": [
+            "We've got what you need!"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "description": {
+          "$id": "#/properties/about/properties/description",
+          "type": "string",
+          "title": "About Description",
+          "default": "",
+          "examples": [
+            "Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "button_text": {
+          "$id": "#/properties/about/properties/button_text",
+          "type": "string",
+          "title": "Button Text",
+          "default": "",
+          "examples": [
+            "Get Started!"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "services_title": {
+      "$id": "#/properties/services_title",
+      "type": "string",
+      "title": "At Your Service Section Title",
+      "default": "",
+      "examples": [
+        "At Your Service"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "features": {
+      "$id": "#/properties/features",
+      "type": "array",
+      "title": "Features Section",
+      "items": {
+        "$id": "#/properties/features/items",
+        "type": "object",
+        "title": "Feature",
+        "required": [
+          "fa",
+          "title",
+          "description"
+        ],
+        "properties": {
+          "fa": {
+            "$id": "#/properties/features/items/properties/fa",
+            "type": "string",
+            "title": "Feature Icon",
+            "default": "",
+            "examples": [
+              "fa_gem"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "title": {
+            "$id": "#/properties/features/items/properties/title",
+            "type": "string",
+            "title": "Feature Name",
+            "default": "",
+            "examples": [
+              "Sturdy Themes"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "description": {
+            "$id": "#/properties/features/items/properties/description",
+            "type": "string",
+            "title": "Feature Description",
+            "default": "",
+            "examples": [
+              "Our themes are updated regularly to keep them bug free!"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "portfolio": {
+      "$id": "#/properties/portfolio",
+      "type": "array",
+      "title": "Portfolio Section",
+      "items": {
+        "$id": "#/properties/portfolio/items",
+        "type": "object",
+        "title": "Portfolio Image",
+        "required": [
+          "portfolio_img",
+          "img_fluid",
+          "category",
+          "project_name"
+        ],
+        "properties": {
+          "portfolio_img": {
+            "$id": "#/properties/portfolio/items/properties/portfolio_img",
+            "type": "string",
+            "title": "Background Image",
+            "default": "",
+            "media": {
+              "binaryEncoding": "base64",
+              "type": "img/png"
+            },
+            "examples": [
+              "creative_template/img/portfolio/fullsize/1.jpg"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "img_fluid": {
+            "$id": "#/properties/portfolio/items/properties/img_fluid",
+            "type": "string",
+            "title": "Thumbnail Image",
+            "default": "",
+            "media": {
+              "binaryEncoding": "base64",
+              "type": "img/png"
+            },
+            "examples": [
+              "creative_template/img/portfolio/thumbnails/1.jpg"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "category": {
+            "$id": "#/properties/portfolio/items/properties/category",
+            "type": "string",
+            "title": "Category",
+            "default": "",
+            "examples": [
+              "Category"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "project_name": {
+            "$id": "#/properties/portfolio/items/properties/project_name",
+            "type": "string",
+            "title": "Project Name",
+            "default": "",
+            "examples": [
+              "Project Name"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "call_to_action": {
+      "$id": "#/properties/call_to_action",
+      "type": "object",
+      "title": "Call To Action Section",
+      "required": [
+        "title",
+        "btn_text"
+      ],
+      "properties": {
+        "title": {
+          "$id": "#/properties/call_to_action/properties/title",
+          "type": "string",
+          "title": "Call To Action Title",
+          "default": "",
+          "examples": [
+            "Free Download at Start Bootstrap!"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "btn_text": {
+          "$id": "#/properties/call_to_action/properties/btn_text",
+          "type": "string",
+          "title": "Call To Action Button Text",
+          "default": "",
+          "examples": [
+            "Download Now!"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "get_in_touch": {
+      "$id": "#/properties/get_in_touch",
+      "type": "object",
+      "title": "Get In Touch Section",
+      "required": [
+        "title",
+        "description"
+      ],
+      "properties": {
+        "title": {
+          "$id": "#/properties/get_in_touch/properties/title",
+          "type": "string",
+          "title": "Get In Touch Title",
+          "default": "",
+          "examples": [
+            "Let's Get In Touch!"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "description": {
+          "$id": "#/properties/get_in_touch/properties/description",
+          "type": "string",
+          "title": "Get In Touch Description",
+          "default": "",
+          "examples": [
+            "Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "contacts": {
+      "$id": "#/properties/contacts",
+      "type": "array",
+      "title": "Contacts Section",
+      "items": {
+        "$id": "#/properties/contacts/items",
+        "type": "object",
+        "title": "Contact Item",
+        "required": [
+          "class",
+          "fa",
+          "description"
+        ],
+        "properties": {
+          "class": {
+            "$id": "#/properties/contacts/items/properties/class",
+            "type": "string",
+            "title": "Contact Class (CSS)",
+            "default": "col-lg-4 ml-auto text-center mb-5 mb-lg-0",
+            "examples": [
+              "col-lg-4 ml-auto text-center mb-5 mb-lg-0"
+            ],
+            "pattern": "^(.*)$",
+            "optional": "true"
+          },
+          "fa": {
+            "$id": "#/properties/contacts/items/properties/fa",
+            "type": "string",
+            "title": "Contact Icon",
+            "default": "",
+            "examples": [
+              "fa-phone"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "description": {
+            "$id": "#/properties/contacts/items/properties/description",
+            "type": "string",
+            "title": "Contact Info",
+            "default": "",
+            "examples": [
+              "+1 (202) 555-0149"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "copyright": {
+      "$id": "#/properties/copyright",
+      "type": "string",
+      "title": "Copyright Footer",
+      "default": "",
+      "examples": [
+        "Copyright © 2019 - Start Bootstrap"
+      ],
+      "pattern": "^(.*)$"
+    }
+  }
+}
