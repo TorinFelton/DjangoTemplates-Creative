@@ -10,7 +10,6 @@
      
     "nav_brand": "Start Bootstrap",
     "nav_links": [
-    {
         {"name": "About", "href": "#about"},
         {"name": "Services", "href": "#services"},
         {"name": "Portfolio", "href": "#portfolio"},
