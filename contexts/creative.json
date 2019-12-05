@@ -6,15 +6,16 @@
         "author": "",
         "description": ""
     },
-
-    "nav_bar":
+   "": "Start Bootstrap", "href": "#start"},
+     
+    "nav_brand": "Start Bootstrap",
+    "nav_links": [
     {
-        "nav_title": "Start Bootstrap",
-        "nav1": "About",
-        "nav2": "Services",
-        "nav3": "Portfolio",
-        "nav4": "Contact"
-    },
+        {"name": "About", "href": "#about"},
+        {"name": "Services", "href": "#services"},
+        {"name": "Portfolio", "href": "#portfolio"},
+        {"name": "Contact", "href": "#contact"},
+    ],
 
     "main":
     {
