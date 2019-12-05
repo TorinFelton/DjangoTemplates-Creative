@@ -6,7 +6,8 @@
   "title": "Creative Page",
   "required": [
     "page",
-    "nav_bar",
+    "nav_brand",
+    "nav_links",
     "main",
     "about",
     "services_title",
@@ -60,70 +61,37 @@
         }
       }
     },
-    "nav_bar": {
-      "$id": "#/properties/nav_bar",
-      "type": "object",
-      "title": "Navigation Bar",
-      "required": [
-        "nav_title",
-        "nav1",
-        "nav2",
-        "nav3",
-        "nav4"
-      ],
-      "properties": {
-        "nav_title": {
-          "$id": "#/properties/nav_bar/properties/nav_title",
+    "nav_brand": {
+      "$id": "#/properties/nav_brand",
+        "type": "string",
+        "title": "Navigation Brand"
+      },
+    "nav_links": {
+      "$id": "#/properties/nav_links",
+      "type": "array",
+      "format": "table",
+      "title": "Navigation Links",
+      "items": {
+        "type": "object",
+        "title": "Nav Link",
+         "required": [
+          "name",
+          "href"
+        ],
+        "properties": {
+        "name": {
+          "$id": "#/properties/nav_bar/properties/name",
           "type": "string",
-          "title": "Navbar Title",
-          "default": "",
-          "examples": [
-            "Start Bootstrap"
-          ],
-          "pattern": "^(.*)$"
+          "title": "Name"
         },
-        "nav1": {
-          "$id": "#/properties/nav_bar/properties/nav1",
+        "href": {
+          "$id": "#/properties/nav_bar/properties/href",
           "type": "string",
-          "title": "Nav Item 1",
-          "default": "",
-          "examples": [
-            "About"
-          ],
-          "pattern": "^(.*)$"
-        },
-        "nav2": {
-          "$id": "#/properties/nav_bar/properties/nav2",
-          "type": "string",
-          "title": "Nav Item 2",
-          "default": "",
-          "examples": [
-            "Services"
-          ],
-          "pattern": "^(.*)$"
-        },
-        "nav3": {
-          "$id": "#/properties/nav_bar/properties/nav3",
-          "type": "string",
-          "title": "Nav Item 3",
-          "default": "",
-          "examples": [
-            "Portfolio"
-          ],
-          "pattern": "^(.*)$"
-        },
-        "nav4": {
-          "$id": "#/properties/nav_bar/properties/nav4",
-          "type": "string",
-          "title": "Nav Item 4",
-          "default": "",
-          "examples": [
-            "Contact"
-          ],
-          "pattern": "^(.*)$"
+          "title": "Link"
         }
       }
-    },
+    }
+  },
     "main": {
       "$id": "#/properties/main",
       "type": "object",
