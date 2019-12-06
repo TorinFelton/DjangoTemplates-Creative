@@ -5,16 +5,14 @@
         "title": "Creative - Start Bootstrap Theme",
         "author": "",
         "description": ""
-    },
-
-    "nav_bar":
-    {
-        "nav_title": "Start Bootstrap",
-        "nav1": "About",
-        "nav2": "Services",
-        "nav3": "Portfolio",
-        "nav4": "Contact"
-    },
+    },     
+    "nav_brand": "Start Bootstrap",
+    "nav_links": [
+        {"name": "About Us", "href": "#about"},
+        {"name": "Services", "href": "#services"},
+        {"name": "Portfolio", "href": "#portfolio"},
+        {"name": "Contact", "href": "#contact"}
+    ],
 
     "main":
     {
